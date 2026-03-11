@@ -11,6 +11,7 @@ public class UseCase3PalindromeCheckerApp {
 
         boolean isPalindrome = input.equals(reversed);
 
+        
         System.out.println("Input: " + input);
         System.out.println("Is Palindrome?: " + isPalindrome);
     }
