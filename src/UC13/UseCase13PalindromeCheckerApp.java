@@ -17,7 +17,6 @@ public class UseCase13PalindromeCheckerApp {
 
         long endTime = System.nanoTime();
         long duration = endTime - startTime;
-
         System.out.println("Input: " + input);
         System.out.println("Is Palindrome?: " + isPalindrome);
         System.out.println("Execution Time: " + duration + " ns");
