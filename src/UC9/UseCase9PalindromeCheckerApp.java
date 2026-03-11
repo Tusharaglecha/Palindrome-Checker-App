@@ -8,7 +8,6 @@ public class UseCase9PalindromeCheckerApp {
         System.out.println("Input: " + input);
         System.out.println("Is Palindrome?: " + isPalindrome);
     }
-
     private static boolean check(String s, int start, int end) {
         if (start >= end) {
             return true;
