@@ -4,7 +4,6 @@ import java.util.Stack;
 interface PalindromeStrategy {
     boolean check(String input);
 }
-
 class StackStrategy implements PalindromeStrategy {
     @Override
     public boolean check(String input) {
