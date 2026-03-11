@@ -11,7 +11,6 @@ public class UseCase10PalindromeCheckerApp {
                 break;
             }
         }
-
         System.out.println("Input: " + input);
         System.out.println("Is Palindrome?: " + isPalindrome);
     }
