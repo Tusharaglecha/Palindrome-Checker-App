@@ -14,7 +14,6 @@ class PalindromeService {
         return true;
     }
 }
-
 public class UseCase11PalindromeCheckerApp {
     public static void main(String[] args) {
         String input = "racecar";
